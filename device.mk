@@ -183,11 +183,6 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service.xiaomi_land
-
-# FM
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
     
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
@@ -267,10 +262,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service
-
-# LiveDisplay native
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@1.0-service-sdm
 
 # Media
 PRODUCT_PACKAGES += \
@@ -365,10 +356,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     $(DEVICE_PATH)/seccomp/mediaextractor-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
-
-# Snap
-PRODUCT_PACKAGES += \
-    Snap
 
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
