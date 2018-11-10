@@ -178,11 +178,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service.xiaomi_land
 
-# FM
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
-    
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
 
